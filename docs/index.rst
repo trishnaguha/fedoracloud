@@ -17,6 +17,7 @@ Contents:
    networkd
    atomic
    atomiccommandcheatsheet
+   atomicrunbooks
    base
    docker
    contribute
