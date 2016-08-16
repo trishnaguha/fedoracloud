@@ -17,6 +17,7 @@ Contents:
    networkd
    atomic
    atomiccommandcheatsheet
+   cockpit
    base
    docker
    contribute
