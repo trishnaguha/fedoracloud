@@ -31,6 +31,8 @@ Image (Qcow2) Generation
 
 The Atomic cloud images are built using ImageFactory, which calls into Anaconda using a kickstart file. The kickstart file refers to the tree composed above (just like how with mainline packages, the kickstart file points to yum repositories).
 
-The kickstart files for Atomic are located here: `https://pagure.io/fedora-atomic <https://pagure.io/fedora-atomic/>`_.
+Fedora Atomic repo can be found here: `https://pagure.io/fedora-atomic <https://pagure.io/fedora-atomic/>`_.
+
+The kickstart files for Atomic are located here: `https://pagure.io/fedora-kickstarts <https://pagure.io/fedora-kickstarts/>`_.
 
 **Further Reading:** Worknotes by `Kushal Das <https://kushaldas.in/>`_ : `http://worknotes.readthedocs.io <http://worknotes.readthedocs.io/>`_.
