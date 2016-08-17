@@ -20,6 +20,7 @@ Contents:
    base
    docker
    irssi
+   contribute-to-test
    contribute
 
 
