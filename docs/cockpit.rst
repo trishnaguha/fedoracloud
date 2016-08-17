@@ -5,6 +5,7 @@ Cockpit on Atomic Host
 
 - Cockpit is a server manager that makes it easy to administer your GNU/Linux servers via a web browser.
 - Cockpit makes it easy for any sysadmin to perform simple tasks, such as administering storage, inspecting journals and starting and stopping services.
+- It provides a nice web user interface where you can manage your Docker containers with single click.
 - Jumping between the terminal and the web tool is no problem. A service started via Cockpit can be stopped via the terminal. Likewise, if an error occurs in the terminal, it can be seen in the Cockpit journal interface.
 - You can monitor and administer several servers at the same time. Just add them with a single click and your machines will look after its buddies.
 
@@ -101,4 +102,7 @@ Now we can reload systemd to read the new unit file, enable the service to start
    Aug 16 12:42:25 atomic.novalocal docker[2047]: INFO: cockpit-ws: Using certificate: /etc/cockpit/ws-certs.d/0-self-signed.cert
 
 
-Now that the service is up and running, point your web brower at ``port 9090`` on the Atomic host and you should see the Cockpit login page. You’ll need to log in with a user in the ``wheel`` group in order to administrate the system, but you can log in as any user to view the local host. For the published Fedora Atomic cloud image, log in with the fedora credentials and you should be ready to go. You can add other hosts to this Cockpit instance, with the knowledge that reboots and upgrades to the host or the container won’t affect the configuration.
+Now that the service is up and running, point your web brower at ``port 9090`` on the Atomic host and you should see the Cockpit login page. You’ll need to log in with a user in the ``wheel`` group in order to administrate the system, but you can log in as any user to view the local host. For the published Fedora Atomic cloud image, log in with the fedora credentials and you should be ready to go. You can login as ``root user``. For that You need to setup password for root user in your atomic instance. After that you need to change ``PasswordAuthentication`` to ``yes`` in ``/etc/ssh/sshd_config`` and you are ready to go.
+You can add other hosts to this Cockpit instance, with the knowledge that reboots and upgrades to the host or the container won’t affect the configuration.
+
+We also have blog post for this: `https://trishnag.wordpress.com/2016/08/17/cockpit-container-on-atomic-host <https://trishnag.wordpress.com/2016/08/17/cockpit-container-on-atomic-host/>`_.
