@@ -115,7 +115,7 @@ Run Test
 --------
 
 Edit `fedora.txt <https://github.com/kushaldas/tunirtests/blob/master/fedora.txt/>`_ file and add the your test case there.
-Now run
+Now on another terminal run
 
 .. code-block:: bash
 
