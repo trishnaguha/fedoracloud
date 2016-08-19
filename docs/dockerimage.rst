@@ -13,6 +13,16 @@ However, users are going to interact with Docker images somewhat differently tha
 
 To put it another way, when a user/developer does ``docker pull fedora`` they will assume that the image is ready to use and does not require a round of updates before it is usable to deploy/work with.
 
+Pull The Image
+--------------
+
+``docker pull fedora``
+
+Start Container
+---------------
+
+``docker run -it fedora /bin/bash``
+
 Current set of Packages Available in Fedora Docker Image
 --------------------------------------------------------
 
@@ -183,3 +193,8 @@ Latest Fedora Docker Image now has **163 packages** installed.
    dnf-yum-1.1.9-2.fc24.noarch
    sssd-client-1.13.4-3.fc24.x86_64
    vim-minimal-7.4.1718-1.fc24.x86_64
+
+**Further Reading:**
+
+- `https://fedoramagazine.org/container-technologies-fedora-docker <https://fedoramagazine.org/container-technologies-fedora-docker/>`_.
+- `https://docs.docker.com <https://docs.docker.com/>`_.
