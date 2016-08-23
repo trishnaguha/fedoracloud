@@ -20,6 +20,8 @@ Contents:
    base
    docker
    irssi
+   ec2_image
+   ec2_creation
    contribute
 
 
