@@ -20,6 +20,7 @@ Contents:
    base
    docker
    irssi
+   ircbouncer
    contribute
 
 
