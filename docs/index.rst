@@ -17,6 +17,7 @@ Contents:
    networkd
    atomic
    atomiccommandcheatsheet
+   build-own-atomichost
    base
    docker
    vagrant
